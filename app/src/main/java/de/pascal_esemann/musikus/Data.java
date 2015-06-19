@@ -1,8 +1,6 @@
 package de.pascal_esemann.musikus;
 
-/**
- * Created by Alexander on 19.06.15.
- */
+
 public class Data {
 
     //Attributs

@@ -1,8 +1,6 @@
 package de.pascal_esemann.musikus;
 
-/**
- * Created by Alexander on 19.06.15.
- */
+
 public class Farben {
 
     //Attributs
@@ -22,7 +20,6 @@ public class Farben {
 
 
 
-
     public int getColor() {
         return color;
     }
@@ -30,14 +27,5 @@ public class Farben {
     private void settitle(int pcolor) {
         color = pcolor;
     }
-
-
-
-
-
-
-
-
-
 
 }
