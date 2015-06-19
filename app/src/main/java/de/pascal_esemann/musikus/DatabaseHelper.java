@@ -57,6 +57,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return data;
     }
+
+    @Override
+    public void onCreate(SQLiteDatabase db){}
+
+    @Override
+    public void onUpgrade(SQLiteDatabase db, int a, int b){}
 }
 
 
