@@ -68,4 +68,4 @@ public class Museumsdatas {
     private void setWikipedia(String pwikipedia) {
         wikipedia = pwikipedia;
     }
-}9
+}
