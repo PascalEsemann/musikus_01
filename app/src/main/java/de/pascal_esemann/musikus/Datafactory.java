@@ -1,5 +1,11 @@
 package de.pascal_esemann.musikus;
 
+import android.app.Activity;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
 /**
  * Created by Pascal_2 on 19.06.2015.
  */
@@ -62,7 +68,10 @@ public class Datafactory {
     }
 
     private Data[] getDBData(){
-        //////////
+
+        for(String sql : context.getResources().getStringArray(R.array.select)) {
+            Cursor rawQuery (String sql, String[]selectionArgs);
+        }
     }
 
     public Farben[] getFarben(){
