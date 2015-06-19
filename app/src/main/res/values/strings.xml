@@ -8,13 +8,14 @@
 
 
 
-    <string name="app_name">musikus</string>
+
     <string name="version">1</string>
     <string name="dbname">codingDV</string>
     <string-array name="select">
-    <item>
-      SELECT * FROM Farben
-    </item>
-
+        <item>Farben</item>
+        <item>Pages</item>
+        <item>rest</item>
+        <item>Museumsdatas</item>
+        <item>Fragen</item>
     </string-array>
 </resources>
