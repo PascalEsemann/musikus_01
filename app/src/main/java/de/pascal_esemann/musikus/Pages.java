@@ -7,8 +7,9 @@ public class Pages {
     private String text = new String();
 
     //Methods
-    puplic Pages() {
-        ();
+    public Pages(Data pdata) {
+        setTitle((String) pdata.getValues()[0]);
+        setText((String) pdata.getValues()[1]);
     }
 
     //get/set

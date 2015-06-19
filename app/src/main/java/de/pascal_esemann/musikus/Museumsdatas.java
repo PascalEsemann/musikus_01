@@ -5,20 +5,31 @@ public class Museumsdatas {
     private String signatur = new String();
     private String sachbegriff = new String();
     private String titel = new String();
-    private String geoBezug = new String();
-    private Boolean bild = new Boolean();
-    private Boolean video = new Boolean();
-    private Boolean audio = new Boolean();
+    private String geoBezug;
+    private Boolean bild;
+    private Boolean video;
+    private Boolean audio;
     private String wikipedia = new String();
 
     //Methodes
-    puplic Museumsdatas (Data pdata) {
-        ();
+    public Museumsdatas(Data pdata)
+    {
+        setSignatur((String) pdata.getValues()[0]);
+        setSachbegriff((String) pdata.getValues()[1]);
+        setTitel((String) pdata.getValues()[2]);
+        setGeoBezug((String) pdata.getValues()[3]);
+        if (pdata.getValues()[4] == "1") {setBild(true);}
+        else{setBild(false);}
+        if (pdata.getValues()[5] == "1") {setVideo(true);}
+        else{setVideo(false);}
+        if (pdata.getValues()[6] == "1") {setAudio(true);}
+        else{setAudio(false);}
+        setWikipedia((String) pdata.getValues()[7]);
     }
 
     //get/set
     public String getSignatur() {
-        return sigantur;
+        return signatur;
     }
 
     private void setSignatur(String psignatur) {
@@ -42,22 +53,22 @@ public class Museumsdatas {
     }
 
     public String getGeoBezug() {
-        return pgeobezug;
+        return geoBezug;
     }
 
     private void setGeoBezug(String pgeobezug) {
-        geobezug = pgeobezug;
+        geoBezug = pgeobezug;
     }
 
-    public Boolean getBild () { return pbild;}
+    public Boolean getBild () { return bild;}
 
     private void setBild (Boolean pbild) { bild = pbild; }
 
-    public Boolean getVideo () { return pvideo;}
+    public Boolean getVideo () { return video;}
 
     private void setVideo (Boolean pvideo) { video = pvideo; }
 
-    public Boolean getAudio () { return paudio;}
+    public Boolean getAudio () { return audio;}
 
     private void setAudio (Boolean paudio) { audio = paudio; }
 

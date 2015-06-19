@@ -13,17 +13,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     private Context context;
 
-    DatabaseHelper(Context context) {
-        super(
-                context,
-                context.getResources().getString(R.string.dbname),
-                null,
-                Integer.parseInt(context.getResources().getString(R.string.version)));
+    public DatabaseHelper(Context context) {
+        super(context, context.getResources().getString(R.string.dbname),null, Integer.parseInt(context.getResources().getString(R.string.version)));
         this.context = context;
     }
 
 
-    public Data[] onSelect(SQLiteDatabase db) {
+    public Data[] onSelect() {
         //Arraylänge bestimmen
         int zaehler = 0;
         for (String sqltable : context.getResources().getStringArray(R.array.select)) {

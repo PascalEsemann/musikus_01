@@ -18,7 +18,7 @@ public class motherActivity extends Activity {
 
     //Attributes
     private ViewGroup screen = (ViewGroup) findViewById(R.id.screen);
-
+    private Datafactory datastore = Datafactory.getInstance();
 
     //Methodes
     @Override
@@ -32,7 +32,7 @@ public class motherActivity extends Activity {
 
         //Farben holen
         //Startwerte
-        int bgcolor = Color.parseColor("#fff");
+        int bgcolor = parseColor("#fff");
         int txtcolor = parseColor("#000");
         int txt2color = parseColor("#fff");
         int fgcolor = parseColor("#934ebf");
@@ -57,5 +57,4 @@ public class motherActivity extends Activity {
         catch(Exception ex) { }
         }
 
-    }
 }

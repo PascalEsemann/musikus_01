@@ -11,7 +11,7 @@ import android.view.MenuItem;
 public class MainActivity extends motherActivity {
 
 
-    public static SQLiteOpenHelper database;
+    public static DatabaseHelper database;
     public static SQLiteDatabase connection;
 
     @Override
