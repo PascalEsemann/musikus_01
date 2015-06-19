@@ -24,7 +24,7 @@ public class Farben {
         return color;
     }
 
-    private void settitle(int pcolor) {
+    private void setTitle(int pcolor) {
         color = pcolor;
     }
 
