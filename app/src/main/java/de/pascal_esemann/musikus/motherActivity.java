@@ -1,6 +1,8 @@
 package de.pascal_esemann.musikus;
 
 import android.app.Activity;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.provider.CalendarContract;
