@@ -14,7 +14,7 @@ public class Datafactory {
     private Museumsdatas[] museumsdata = new Museumsdatas();
     private Fragen[] fragen = new Fragen();
 
-    
+
     //Methods
     public Datafactory(){
     getDBData();
@@ -23,4 +23,35 @@ public class Datafactory {
     public static Datafactory getInstance(){
         return datastore;
     }
+
+    //get/set - Accestories
+    public String getTitle(){
+        return title;
+    }
+
+    private void setTitle(String ptitle){
+        title = ptitle;
+    }
+
+    public Pages[] getPages(){
+        return pages;
+    }
+
+    private void setPages(Pages[] ppages){
+        pages = ppages;
+    }
+
+    private void addPage(Pages ppage){
+        pages[pages.length] = ppage;
+    }
+
+    public Museumsdatas[] getMuseumsdata(){
+        return museumsdata;
+    }
+
+    private void setMuseumsdata(Museumsdatas[] pmuseumsdata){
+        museumsdata = pmuseumsdata;
+    }
+
+
 }
