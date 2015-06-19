@@ -53,5 +53,34 @@ public class Datafactory {
         museumsdata = pmuseumsdata;
     }
 
+    public String getLogoname(){
+        return logoname;
+    }
+
+    private void setLogoname(String plogoname){
+        logoname = plogoname;
+    }
+
+    private Data[] getDBData(){
+        //////////
+    }
+
+    public Farben[] getFarben(){
+        return farben;
+    }
+
+    private void setFarben(Farben[] pfarben){
+        farben = pfarben;
+    }
+
+    public Fragen[] getFragen(){
+        return fragen;
+    }
+
+    private void setFragen(Fragen[] pfragen){
+        fragen = pfragen;
+    }
+
+
 
 }
