@@ -4,14 +4,11 @@ package de.pascal_esemann.musikus;
 public class Data {
 
     //Attributs
-    private String name = new String();
-    private String[] values = new String();
-    private String type = new String();
+    private String name;
+    private String[] values;
+    private String type;
 
-    //Methods
-    puplic Data() {
-        ();
-    }
+
 
     //get/set
 
@@ -19,7 +16,7 @@ public class Data {
         return name;
     }
 
-    private void setName(String pname) {
+    public void setName(String pname) {
         name = pname;
     }
 
@@ -27,15 +24,16 @@ public class Data {
         return values;
     }
 
-    private void setValues(String[] pvalues) {
-        =values = pvalues;
+    public void setValues(String[] pvalues) {
+
+        values = pvalues;
     }
 
     public String getType() {
         return type;
     }
 
-    private void setType(String ptype) {
+    public void setType(String ptype) {
         type = ptype;
     }
 

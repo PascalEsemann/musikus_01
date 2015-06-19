@@ -13,41 +13,50 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     private Context context;
 
-    DatabaseHelper(Context context){
+    DatabaseHelper(Context context) {
         super(
                 context,
                 context.getResources().getString(R.string.dbname),
                 null,
                 Integer.parseInt(context.getResources().getString(R.string.version)));
-        this.context=context;
+        this.context = context;
     }
 
-    @Override
-    public Data[] onCreate(SQLiteDatabase db) {
 
-        Data[] data = new Data();
-
-
+    public Data[] onSelect(SQLiteDatabase db) {
+        //Arraylänge bestimmen
+        int zaehler = 0;
         for (String sqltable : context.getResources().getStringArray(R.array.select)) {
             try {
-                Cursor result=MainActivity.connection.rawQuery("SELECT * FROM " + sqltable , null);
-                while(result.moveToNext ()){
-                    data[data.length].setName(result.getString(1));
-                    String[] value = new String[result.getColumnCount()-2];
-                    for (int i = 2; i < result.getColumnCount(); i++) {
-                        value[i-2] = result.getString(i);
-                    }
-                data[data.length].setValues(value);
-                data[data.length].setType(sqltable);
-                }
+                Cursor result = MainActivity.connection.rawQuery("SELECT * FROM " + sqltable, null);
+                zaehler += result.getCount();
             }
             catch(Exception ex){}
+        }
+        Data[] data = new Data[zaehler];
+
+        int count = 0;
+        for (String sqltable : context.getResources().getStringArray(R.array.select)) {
+            try {
+                Cursor result = MainActivity.connection.rawQuery("SELECT * FROM " + sqltable, null);
+
+                while (result.moveToNext()) {
+                    data[count].setName(result.getString(1));
+                    String[] value = new String[result.getColumnCount() - 2];
+                    for (int i = 2; i < result.getColumnCount(); i++) {
+                        value[i - 2] = result.getString(i);
+                    }
+                    data[count].setValues(value);
+                    data[count].setType(sqltable);
+                    count++;
+                }
+            } catch (Exception ex) {
+            }
 
         }
+
         return data;
     }
-
-    @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-    }
 }
+
+
