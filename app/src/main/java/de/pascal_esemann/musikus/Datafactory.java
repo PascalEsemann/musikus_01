@@ -11,7 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class Datafactory {
     //Attributs
-    private static final Datafactory datastore = new Datafactory();
+
     private Data[] datas;
     private Farben[] farben;
     private String logoname;
@@ -19,16 +19,14 @@ public class Datafactory {
     private Pages[] pages;
     private Museumsdatas[] museumsdata;
     private Fragen[] fragen;
+    private MainActivity mact;
 
 
     //Methods
     public Datafactory(){
-    getDBData();
+        getDBData();
     }
-    //singleton
-    public static Datafactory getInstance(){
-        return datastore;
-    }
+
 
     //get/set - Accestories
     public String getTitle(){
@@ -84,7 +82,7 @@ public class Datafactory {
     }
 
     private void getDBData(){
-        Data[] data = MainActivity.database.onSelect();
+        Data[] data = mact.getDatabase().onSelect();
 
         //Zählen für Array-länge
         int count_farben = 0;

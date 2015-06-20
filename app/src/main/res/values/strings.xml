@@ -18,4 +18,51 @@
         <item>Museumsdatas</item>
         <item>Fragen</item>
     </string-array>
+    <string-array name="create">
+        <item>CREATE TABLE [Farben] (
+[ID] iNTEGER  UNIQUE NOT NULL,
+[Name] vaRCHAR(50)  UNIQUE NOT NULL,
+[color] vARCHAR(50)  NOT NULL
+);</item>
+
+<item>CREATE TABLE [Fragen] (
+[ID] intEGER  UNIQUE NOT NULL,
+[name] varCHAR(50)  NOT NULL,
+[questions] varCHAR(50)  NOT NULL,
+[caw] varCHAR(50)  NOT NULL,
+[incaw1] varCHAR(50)  NOT NULL,
+[incaw2] varCHAR(50)  NOT NULL,
+[incaw3] varCHAR(50)  NOT NULL,
+[bild] booLEAN  NOT NULL,
+[video] booLEAN  NOT NULL,
+[audio] booLEAN  NOT NULL
+);</item>
+
+<item>CREATE TABLE [Museumsdatas] (
+[ID] inTEGER  UNIQUE NOT NULL,
+[name] varCHAR(50)  NOT NULL,
+[signature] varCHAR(50)  NOT NULL,
+[sachbegriff] varCHAR(50)  NOT NULL,
+[titel] varCHAR(50)  NOT NULL,
+[geoBezug] varCHAR(50)  NOT NULL,
+[bild] booLEAN  NOT NULL,
+[video] booLEAN  NOT NULL,
+[audio] booLEAN  NOT NULL,
+[wikipedia] varCHAR(100)  NOT NULL
+);</item>
+
+<item>CREATE TABLE [Pages] (
+[ID] intEGER  UNIQUE NOT NULL,
+[name] varCHAR(50)  UNIQUE NOT NULL,
+[title] varCHAR(50)  NOT NULL,
+[text] VARCHAR(99999)  NOT NULL
+);</item>
+
+<item>CREATE TABLE [rest] (
+[ID] inTEGER  UNIQUE NOT NULL,
+[name] varCHAR(50)  NOT NULL,
+[title] varCHAR(50)  NOT NULL,
+[logoname] varCHAR(50)  NOT NULL
+);</item>
+    </string-array>
 </resources>

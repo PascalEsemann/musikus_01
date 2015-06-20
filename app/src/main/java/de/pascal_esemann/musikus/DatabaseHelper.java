@@ -12,6 +12,7 @@ import android.provider.ContactsContract;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private Context context;
+    private MainActivity mact;
 
     public DatabaseHelper(Context context) {
         super(context, context.getResources().getString(R.string.dbname),null, Integer.parseInt(context.getResources().getString(R.string.version)));
@@ -24,7 +25,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         int zaehler = 0;
         for (String sqltable : context.getResources().getStringArray(R.array.select)) {
             try {
-                Cursor result = MainActivity.connection.rawQuery("SELECT * FROM " + sqltable, null);
+                Cursor result = mact.getConnection().rawQuery("SELECT * FROM " + sqltable, null);
                 zaehler += result.getCount();
             }
             catch(Exception ex){}
@@ -34,7 +35,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         int count = 0;
         for (String sqltable : context.getResources().getStringArray(R.array.select)) {
             try {
-                Cursor result = MainActivity.connection.rawQuery("SELECT * FROM " + sqltable, null);
+                Cursor result = mact.getConnection().rawQuery("SELECT * FROM " + sqltable, null);
 
                 while (result.moveToNext()) {
                     data[count].setName(result.getString(1));
@@ -46,7 +47,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     data[count].setType(sqltable);
                     count++;
                 }
-            } catch (Exception ex) {
+            }
+            catch (Exception ex) {
             }
 
         }
@@ -55,7 +57,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onCreate(SQLiteDatabase db){}
+    public void onCreate(SQLiteDatabase db){
+        for(String sql : context.getResources().getStringArray(R.array.create)) {
+            db.execSQL(sql);
+        }
+    }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int a, int b){}
