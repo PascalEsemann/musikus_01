@@ -1,6 +1,7 @@
 package de.pascal_esemann.musikus;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.drawable.Drawable;
@@ -19,7 +20,7 @@ import android.widget.TextView;
 import static android.graphics.Color.parseColor;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity{
 
     private String actView = "Menü";
 
@@ -112,7 +113,31 @@ public class MainActivity extends Activity {
                 btn.setText(p.getTitle());
                 btn.setWidth(LinearLayout.LayoutParams.FILL_PARENT);
                 btn.setHeight(LinearLayout.LayoutParams.WRAP_CONTENT);
-                lview.addView(btn);
+                ViewGroup linview = (ViewGroup) findViewById(R.id.linview);
+                final String pa = (String) btn.getText();
+                btn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent in = new Intent(MainActivity.this,PageActivity.class);
+                        Bundle b = new Bundle();
+                        b.putString("page", pa); //Your id
+                        in.putExtras(b);
+                        startActivity(in);
+                    }
+                });
+                linview.addView(btn);
+            }
+
+            for(int wnum=0; wnum<lview.getChildCount(); wnum ++){
+                    try{
+                        Button btn = (Button)lview.getChildAt(wnum);
+                        btn.setTextColor(txt2color);
+                        btn.setBackgroundColor(fg2color);
+                        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                                LinearLayout.LayoutParams.FILL_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+                        params.setMargins(0, 2, 0, 0);
+                        btn.setLayoutParams(params);
+                    }catch(Exception ex){}
             }
 
 

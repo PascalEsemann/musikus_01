@@ -19,11 +19,11 @@ public class Datafactory {
     private Pages[] pages;
     private Museumsdatas[] museumsdata;
     private Fragen[] fragen;
-    private MainActivity mact;
+    private Activity mact;
 
 
     //Methods
-    public Datafactory(MainActivity pmact){
+    public Datafactory(Activity pmact){
         mact = pmact;
         getDBData();
     }

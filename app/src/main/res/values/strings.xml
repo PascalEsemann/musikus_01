@@ -16,22 +16,22 @@
     <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
     
     <!--Pages-->
-    <string-array name="pages" formatted="false">
+    <string-array name="pages" >
 
             <item name="title">Öffnungszeiten</item>
-            <item name="text">Diensatag bis Freitag: 10:00 - 17:00 Uhr<br/>Samstag und Sonntag: 11:00 - 18:00 Uhr<br/>Montag Ruhetag“</item>
+            <item name="text">Diensatag bis Freitag: 10:00 - 17:00 Uhr<![CDATA[<br/>]]>Samstag und Sonntag: 11:00 - 18:00 Uhr<![CDATA[<br/>]]>Montag Ruhetag“</item>
 
 
             <item name="title">Adresse/Anbindung</item>
-            <item name="text">Lansstraße 8 / Arnimallee 25<br/>14195 Berlin<br/>eingeschränkt rollstuhlgeeignet Verkehrsverbindungen<br/>U-Bahn U3 (Dahlem-Dorf)<br/>Bus M11, X83 (U Dahlem-Dorf)<br/>101 (Limonenstraße)<br/>110 (Domäne Dahlem)</item>
+            <item name="text">Lansstraße 8 / Arnimallee 25<![CDATA[<br/>]]>14195 Berlin<![CDATA[<br/>]]>eingeschränkt rollstuhlgeeignet Verkehrsverbindungen<![CDATA[<br/>]]>U-Bahn U3 (Dahlem-Dorf)<![CDATA[<br/>]]>Bus M11, X83 (U Dahlem-Dorf)<![CDATA[<br/>]]>101 (Limonenstraße)<![CDATA[<br/>]]>110 (Domäne Dahlem)</item>
 
 
             <item name="title">Preise</item>
-            <item name="text">Bereichskarte Dahlem: 8€, ermäßigt 4€<br/>Online: 7€, ermäßigt 3,50€<br/>Jahreskarte: 25€</item>
+            <item name="text">Bereichskarte Dahlem: 8€, ermäßigt 4€<![CDATA[<br/>]]>Online: 7€, ermäßigt 3,50€<![CDATA[<br/>]]>Jahreskarte: 25€</item>
 
 
             <item name="title">Kontakt</item>
-            <item name="text">Tel.: 030/266424242  (Mo - Fr 9 - 16 Uhr)<br/>Fax: 030 / 266422290<br/>service@smb.museum</item>
+            <item name="text">Tel.: 030/266424242  (Mo - Fr 9 - 16 Uhr)<![CDATA[<br/>]]>Fax: 030 / 266422290<![CDATA[<br/>]]>service@smb.museum</item>
 
    </string-array>
     <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
@@ -281,6 +281,7 @@ Entnommen aus: https://en.wikipedia.org/wiki/Kempyang_and_ketuk – 20.6.2015
     <!--rest-->
     <string name="title">Musikus</string>
     <string name="logoname">logo</string>
+    <string name="title_activity_page">PageActivity</string>
     <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
 <!--
