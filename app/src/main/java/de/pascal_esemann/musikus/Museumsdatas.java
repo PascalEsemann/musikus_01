@@ -5,13 +5,25 @@ public class Museumsdatas {
     private String signatur = new String();
     private String sachbegriff = new String();
     private String titel = new String();
-    private String geoBezug;
-    private Boolean bild;
-    private Boolean video;
-    private Boolean audio;
+    private String geoBezug = new String();
+    private Boolean bild = new Boolean(false);
+    private Boolean video = new Boolean(false);
+    private Boolean audio = new Boolean(false);
     private String wikipedia = new String();
 
     //Methodes
+    public Museumsdatas(){
+        setSignatur("");
+        setSachbegriff("");
+        setTitel("");
+        setGeoBezug("");
+        setWikipedia("");
+        setBild(false);
+        setVideo(false);
+        setAudio(false);
+        setWikipedia("");
+    }
+
     public Museumsdatas(Data pdata)
     {
         setSignatur((String) pdata.getValues()[0]);
@@ -32,7 +44,7 @@ public class Museumsdatas {
         return signatur;
     }
 
-    private void setSignatur(String psignatur) {
+    public void setSignatur(String psignatur) {
         signatur = psignatur;
     }
 
@@ -40,7 +52,7 @@ public class Museumsdatas {
         return sachbegriff;
     }
 
-    private void setSachbegriff(String psachbegriff) {
+    public void setSachbegriff(String psachbegriff) {
         sachbegriff = psachbegriff;
     }
 
@@ -48,7 +60,7 @@ public class Museumsdatas {
         return titel;
     }
 
-    private void setTitel(String ptitel) {
+    public void setTitel(String ptitel) {
         titel = ptitel;
     }
 
@@ -56,27 +68,27 @@ public class Museumsdatas {
         return geoBezug;
     }
 
-    private void setGeoBezug(String pgeobezug) {
+    public void setGeoBezug(String pgeobezug) {
         geoBezug = pgeobezug;
     }
 
     public Boolean getBild () { return bild;}
 
-    private void setBild (Boolean pbild) { bild = pbild; }
+    public void setBild (Boolean pbild) { bild = pbild; }
 
     public Boolean getVideo () { return video;}
 
-    private void setVideo (Boolean pvideo) { video = pvideo; }
+    public void setVideo (Boolean pvideo) { video = pvideo; }
 
     public Boolean getAudio () { return audio;}
 
-    private void setAudio (Boolean paudio) { audio = paudio; }
+    public void setAudio (Boolean paudio) { audio = paudio; }
 
     public String getWikipedia() {
         return wikipedia;
     }
 
-    private void setWikipedia(String pwikipedia) {
+    public void setWikipedia(String pwikipedia) {
         wikipedia = pwikipedia;
     }
 }

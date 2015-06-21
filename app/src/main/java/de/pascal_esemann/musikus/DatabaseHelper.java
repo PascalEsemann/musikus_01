@@ -1,4 +1,4 @@
-package de.pascal_esemann.musikus;
+/*package de.pascal_esemann.musikus;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,7 +9,7 @@ import android.provider.ContactsContract;
 /**
  * Created by Pascal_2 on 19.06.2015.
  */
-public class DatabaseHelper extends SQLiteOpenHelper {
+/*public class DatabaseHelper extends SQLiteOpenHelper {
 
     private Context context;
     private MainActivity mact;
@@ -20,7 +20,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 null,
                 Integer.parseInt(context.getResources().getString(R.string.version)));
         this.context=context;
-    }
+    }*/
 
 
    /* public Data[] onSelect() {
@@ -43,7 +43,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return data;
     } */
 
-    @Override
+   /* @Override
     public void onCreate(SQLiteDatabase db){
         for(String sql : context.getResources().getStringArray(R.array.create)) {
             db.execSQL(sql);
@@ -52,6 +52,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int a, int b){}
-}
+}*/
 
 

@@ -16,7 +16,7 @@
     <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
     
     <!--Pages-->
-    <string-array name="pages">
+    <string-array name="pages" formatted="false">
 
             <item name="title">Öffnungszeiten</item>
             <item name="text">Diensatag bis Freitag: 10:00 - 17:00 Uhr<br/>Samstag und Sonntag: 11:00 - 18:00 Uhr<br/>Montag Ruhetag“</item>
@@ -37,7 +37,7 @@
     <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
     <!--Museumsdatas-->
-    <string-array name="museumsdatas">
+    <string-array name="museumsdatas" formatted="false">
 
         <!--datensatz-->
         <item name="signature">vii c 471</item>
@@ -58,7 +58,7 @@ Cengceng: kleine gebuckelte Becken<br/>
 Rebab: Spießlaute<br/>
 Suling: Bambusflöte<br/>
 <a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
-Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015
 </item>
         <!--ende datensatz-->
         <!--datensatz-->
@@ -80,7 +80,7 @@ Cengceng: kleine gebuckelte Becken<br/>
 Rebab: Spießlaute<br/>
 Suling: Bambusflöte<br/>
 <a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
-Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015
 </item>
         <!--ende datensatz-->
         <!--datensatz-->
@@ -102,7 +102,7 @@ Cengceng: kleine gebuckelte Becken<br/>
 Rebab: Spießlaute<br/>
 Suling: Bambusflöte<br/>
 <a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
-Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015
 </item>
         <!--ende datensatz-->
         <!--datensatz-->
@@ -124,7 +124,7 @@ Cengceng: kleine gebuckelte Becken<br/>
 Rebab: Spießlaute<br/>
 Suling: Bambusflöte<br/>
 <a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
-Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015
 </item>
     <!--ende datensatz -->
         <!--datensatz-->
@@ -146,7 +146,7 @@ Cengceng: kleine gebuckelte Becken<br/>
 Rebab: Spießlaute<br/>
 Suling: Bambusflöte<br/>
 <a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
-Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015
 </item>
         <!--ende datensatz-->
         <!--datensatz-->
@@ -160,21 +160,96 @@ Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
         <item name="wikipedia">Gendèr, auch Gender, sind auf Java und Bali in der Gamelan-Musik gespielte Instrumente. Es handelt sich um Metallophone mit dünnen gestimmten Klangplatten, die auf Schnüren über gleich gestimmten Resonanzröhren aufgehängt sind. Die Klangplatten bestehen meist aus Bronze, seltener aus Messing oder Eisen, die in einem Holzrahmen eingefassten Resonanzröhren aus Bambus oder Metall.
 Auf Java wird das gendèr barung mit 13 bis 15 Bronzeplatten vom gendèr panerusunterschieden, dessen Tonhöhe eine Oktave über dem gendèr barung liegt und das doppelt so schnell gespielt wird. Das gendèr panembung mit sechs oder sieben Klangplatten verfügt über den Tonumfang der unteren Platten des gendèr barung. Eine Gamelan-Komposition (gending), deren Eröffnungssequenz (buka) ein gendèrübernimmt, heißt gending gendèr
 <br/><a href="https://de.wikipedia.org/wiki/Gend%C3%A8r">Weiterlesen?</a><br/>
-Entnommen aus: https://de.wikipedia.org/wiki/Gend%C3%A8r – 20.6.2015“)
+Entnommen aus: https://de.wikipedia.org/wiki/Gend%C3%A8r – 20.6.2015
 
 </item>
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="signature">vii c 153</item>
+        <item name="sachbegriff">Schlagplattenspiel</item>
+        <item name="titel"> gender barung (Gamelan)</item>
+        <item name="geoBezug"> Zentral-Java in Indonesien</item>
+        <item name="bild">true</item>
+        <item name="video">false</item>
+        <item name="audio">true</item>
+        <item name="wikipedia">Gendèr, auch Gender, sind auf Java und Bali in der Gamelan-Musik gespielte Instrumente. Es handelt sich um Metallophone mit dünnen gestimmten Klangplatten, die auf Schnüren über gleich gestimmten Resonanzröhren aufgehängt sind. Die Klangplatten bestehen meist aus Bronze, seltener aus Messing oder Eisen, die in einem Holzrahmen eingefassten Resonanzröhren aus Bambus oder Metall.
+Auf Java wird das gendèr barung mit 13 bis 15 Bronzeplatten vom gendèr panerusunterschieden, dessen Tonhöhe eine Oktave über dem gendèr barung liegt und das doppelt so schnell gespielt wird. Das gendèr panembung mit sechs oder sieben Klangplatten verfügt über den Tonumfang der unteren Platten des gendèr barung. Eine Gamelan-Komposition (gending), deren Eröffnungssequenz (buka) ein gendèrübernimmt, heißt gending gendèr
+<br/><a href="https://de.wikipedia.org/wiki/Gend%C3%A8r">Weiterlesen?</a><br/>
+Entnommen aus: https://de.wikipedia.org/wiki/Gend%C3%A8r – 20.6.2015
+
+</item>
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="signature">I C 1479</item>
+        <item name="sachbegriff">Gleitrassel</item>
+        <item name="titel"> angklung</item>
+        <item name="geoBezug"> Java in Indonesien</item>
+        <item name="bild">true</item>
+        <item name="video">false</item>
+        <item name="audio">true</item>
+        <item name="wikipedia">Das Angklung in seiner heutigen Form besteht als Melodieinstrument aus zwei bis vier seitlich beweglichen Klangkörpern ausBambus, die in einem hölzernen Gestell aufgehängt sind. Am unteren Ende werden die Klangkörper in Langlöchern eines Bambusrohrs geführt.
+    <br/><a href="https://de.wikipedia.org/wiki/Angklung">Weiterlesen?</a><br/>
+Entnommen aus: https://de.wikipedia.org/wiki/Angklung – 20.6.2015
+
+</item>
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="signature">vii c 171</item>
+        <item name="sachbegriff">selbstständiger Gong</item>
+        <item name="titel"> ketuk</item>
+        <item name="geoBezug"> Zentral-Java in Indonesien</item>
+        <item name="bild">true</item>
+        <item name="video">false</item>
+        <item name="audio">true</item>
+        <item name="wikipedia">The kempyang and ketuk are two instruments in the gamelan, generally played by the same player, and sometimes played by the same player as the kenong. They are important beat-keepers in the colotomic structure of the gamelan. Depending on the structure, they play different, repeating patterns every gongan. Not all structures use the kempyang, but the kempyang is never played without the ketuk.
+They are shaped like bonang, but are generally placed in their own frame (rancak). The kempyang is pitched higher (about one octave, although it depends if they are in thepelog or slendro set. Both have a central boss like the bonang, but the kempyang has a rounder top (like the higher bonangs), while the ketuk has a flat top (like the lower bonangs).
+<br/><a href="https://en.wikipedia.org/wiki/Kempyang_and_ketuk">Weiterlesen?</a><br/>
+Entnommen aus: https://en.wikipedia.org/wiki/Kempyang_and_ketuk – 20.6.2015
+
+</item>
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="signature">vii e 22</item>
+        <item name="sachbegriff">Zylindertrommel</item>
+        <item name="titel"> surdo</item>
+        <item name="geoBezug"> Brasilien</item>
+        <item name="bild">true</item>
+        <item name="video">false</item>
+        <item name="audio">true</item>
+        <item name="wikipedia"> Die brasilianische Surdo ist eine zylindrische Trommel und gehört zu den größten und wichtigsten Instrumenten der Bateria de Samba. Sie liefert die rhythmische Basis des Stücks und ist dadurch maßgeblich für die Kontrolle der Spielgeschwindigkeit verantwortlich.
+        <br/><a href="https://de.wikipedia.org/wiki/Surdo">Weiterlesen?</a><br/>
+        Entnommen aus: https://de.wikipedia.org/wiki/Surdo – 20.6.2015</item>
         <!--ende datensatz-->
 
     </string-array>
     <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
 
+    <!--Fragen-->
+    <string-array name="fragen">
+
+        <!--datensatz-->
+        <item name="question"></item>
+        <item name="caw"></item>
+        <item name="incaw1"></item>
+        <item name="incaw2"></item>
+        <item name="incaw3"></item>
+        <item name="bild"></item>
+        <item name="video"></item>
+        <item name="audio"></item>
+
+        <!--ende datensatz-->
+
+
+    </string-array>
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
     <!--rest-->
     <string name="title">Musikus</string>
     <string name="logoname">logo</string>
     <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
-
+<!--
 
 
 
@@ -337,5 +412,5 @@ Entnommen aus: https://de.wikipedia.org/wiki/Surdo - 20.6.2015“)
 
 
 
-    </string-array>
+    </string-array>-->
 </resources>

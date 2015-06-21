@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 
     private String actView = "Menü";
 
-    public SQLiteDatabase getConnection(SQLiteOpenHelper dbhelper){
+   /* public SQLiteDatabase getConnection(SQLiteOpenHelper dbhelper){
 
         return dbhelper.getWritableDatabase();
     }
@@ -29,18 +29,18 @@ public class MainActivity extends Activity {
 
     public SQLiteOpenHelper getDatabase(){
         return new DatabaseHelper(this);
-    }
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        try {
+       /* try {
             SQLiteOpenHelper database = new DatabaseHelper(this);
             SQLiteDatabase connection = database.getWritableDatabase();
             database.onCreate(connection);
-        }catch(Exception ex){}
+        }catch(Exception ex){}*/
 
         buildgui();
 

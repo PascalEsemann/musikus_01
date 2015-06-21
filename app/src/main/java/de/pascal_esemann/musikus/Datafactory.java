@@ -127,6 +127,73 @@ public class Datafactory {
         }
         setPages(page);
 
+        //Museumsdatas
+        //Zählen
+        int mcount = 0;
+        int ma = 0;
+        for(String p : mact.getResources().getStringArray(R.array.museumsdatas)) {
+
+            if (ma % 7 == 0) {
+                mcount += 1;
+            }
+            ma += 1;
+        }
+
+        //Daten holen
+        Museumsdatas[] mdatas = new Museumsdatas[mcount];
+        int mc=0;
+        int md=0;
+
+        for(String p : mact.getResources().getStringArray(R.array.museumsdatas)){
+            if(mc == 0){
+                mdatas[md] = new Museumsdatas();
+                mdatas[md].setSignatur(p);
+                mc += 1;
+            }
+            else if(mc == 1){
+                mdatas[md].setSachbegriff(p);
+                mc +=1;
+            }
+            else if(mc == 2){
+                mdatas[md].setTitel(p);
+                mc += 1;
+            }
+            else if(mc == 3){
+                mdatas[md].setGeoBezug(p);
+                mc += 1;
+            }
+            else if(mc == 4){
+                if(new Boolean(p) == false) {
+                    mdatas[md].setBild(false);
+                }
+                else if(new Boolean(p) == true){
+                    mdatas[md].setBild(true);
+                }
+                mc += 1;
+            }
+            else if(mc == 5){
+                if(new Boolean(p) == false) {
+                    mdatas[md].setVideo(false);
+                }
+                else if(new Boolean(p) == true){mdatas[md].setVideo(true);}
+                mc += 1;
+            }
+            else if(mc == 6){
+                if(new Boolean(p) == false) {
+                    mdatas[md].setAudio(false);
+                }
+                else if(new Boolean(p) == true){mdatas[md].setAudio(true);}
+                mc += 1;
+            }
+            else if(mc == 7){
+                mdatas[md].setWikipedia(p);
+                mc = 0;
+                md+=1;
+            }
+        }
+        setMuseumsdata(mdatas);
+
+
         //rest
         setTitle(mact.getResources().getString(R.string.title));
         setLogoname(mact.getResources().getString(R.string.logoname));
