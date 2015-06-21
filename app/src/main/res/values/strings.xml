@@ -7,6 +7,181 @@
     <string name="title_activity_main">MainActivity</string>
 
 
+    <!--Farben-->
+    <string name="bgcolor">#ffffff</string>
+    <string name="txtcolor">#000000</string>
+    <string name="txt2color">#ffffff</string>
+    <string name="fgcolor">#000000</string>
+    <string name="fg2color">#bebcba</string>
+    <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+    
+    <!--Pages-->
+    <string-array name="pages">
+
+            <item name="title">Öffnungszeiten</item>
+            <item name="text">Diensatag bis Freitag: 10:00 - 17:00 Uhr<br/>Samstag und Sonntag: 11:00 - 18:00 Uhr<br/>Montag Ruhetag“</item>
+
+
+            <item name="title">Adresse/Anbindung</item>
+            <item name="text">Lansstraße 8 / Arnimallee 25<br/>14195 Berlin<br/>eingeschränkt rollstuhlgeeignet Verkehrsverbindungen<br/>U-Bahn U3 (Dahlem-Dorf)<br/>Bus M11, X83 (U Dahlem-Dorf)<br/>101 (Limonenstraße)<br/>110 (Domäne Dahlem)</item>
+
+
+            <item name="title">Preise</item>
+            <item name="text">Bereichskarte Dahlem: 8€, ermäßigt 4€<br/>Online: 7€, ermäßigt 3,50€<br/>Jahreskarte: 25€</item>
+
+
+            <item name="title">“Kontakt (Information/Beratung/Buchung)”</item>
+            <item name="text">Tel.: 030/266424242  (Mo - Fr 9 - 16 Uhr)<br/>Fax: 030 / 266422290<br/>service@smb.museum</item>
+
+   </string-array>
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+    <!--Museumsdatas-->
+    <string-array name="museumsdatas">
+
+        <!--datensatz-->
+        <item name="signature">vii c 471</item>
+        <item name="sachbegriff">Schlagplattenspiel</item>
+        <item name="titel">calung</item>
+        <item name="geoBezug">Bali in Indonesien</item>
+        <item name="bild">true</item>
+        <item name="video">true</item>
+        <item name="audio">false</item>
+        <item name="wikipedia">Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+<br/>Die Instrumente des Ensembles sind:<br/>
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah<br/>
+Kesselgongspiele: Trompong, Reyong<br/>
+Gongs: Kempli, Kempur, Gong Gede<br/>
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel<br/>
+Cengceng: kleine gebuckelte Becken<br/>
+Rebab: Spießlaute<br/>
+Suling: Bambusflöte<br/>
+<a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="signature">vii c 473</item>
+        <item name="sachbegriff">Schlagplattenspiel</item>
+        <item name="titel">penyacah</item>
+        <item name="geoBezug">Bali in Indonesien</item>
+        <item name="bild">true</item>
+        <item name="video">true</item>
+        <item name="audio">false</item>
+        <item name="wikipedia">Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+<br/>Die Instrumente des Ensembles sind:<br/>
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah<br/>
+Kesselgongspiele: Trompong, Reyong<br/>
+Gongs: Kempli, Kempur, Gong Gede<br/>
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel<br/>
+Cengceng: kleine gebuckelte Becken<br/>
+Rebab: Spießlaute<br/>
+Suling: Bambusflöte<br/>
+<a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="signature">vii c 474</item>
+        <item name="sachbegriff">Schlagplattenspiel</item>
+        <item name="titel">penyacah</item>
+        <item name="geoBezug">Bali in Indonesien</item>
+        <item name="bild">true</item>
+        <item name="video">true</item>
+        <item name="audio">false</item>
+        <item name="wikipedia">Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+<br/>Die Instrumente des Ensembles sind:<br/>
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah<br/>
+Kesselgongspiele: Trompong, Reyong<br/>
+Gongs: Kempli, Kempur, Gong Gede<br/>
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel<br/>
+Cengceng: kleine gebuckelte Becken<br/>
+Rebab: Spießlaute<br/>
+Suling: Bambusflöte<br/>
+<a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="signature">vii c 487a</item>
+        <item name="sachbegriff">Schlagplattenspiel</item>
+        <item name="titel">kantilan</item>
+        <item name="geoBezug">Bali in Indonesien</item>
+        <item name="bild">true</item>
+        <item name="video">true</item>
+        <item name="audio">false</item>
+        <item name="wikipedia">Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+<br/>Die Instrumente des Ensembles sind:<br/>
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah<br/>
+Kesselgongspiele: Trompong, Reyong<br/>
+Gongs: Kempli, Kempur, Gong Gede<br/>
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel<br/>
+Cengceng: kleine gebuckelte Becken<br/>
+Rebab: Spießlaute<br/>
+Suling: Bambusflöte<br/>
+<a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+    <!--ende datensatz -->
+        <!--datensatz-->
+        <item name="signature">vii c 501</item>
+        <item name="sachbegriff">Konustrommel</item>
+        <item name="titel">kendang</item>
+        <item name="geoBezug">Bali in Indonesien</item>
+        <item name="bild">true</item>
+        <item name="video">true</item>
+        <item name="audio">false</item>
+        <item name="wikipedia">Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+<br/>Die Instrumente des Ensembles sind:<br/>
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah<br/>
+Kesselgongspiele: Trompong, Reyong<br/>
+Gongs: Kempli, Kempur, Gong Gede<br/>
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel<br/>
+Cengceng: kleine gebuckelte Becken<br/>
+Rebab: Spießlaute<br/>
+Suling: Bambusflöte<br/>
+<a href="https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar">Weiterlesen?</a>
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="signature">vii c 150</item>
+        <item name="sachbegriff">Schlagplattenspiel</item>
+        <item name="titel"> gender panerus (Gamelan)</item>
+        <item name="geoBezug"> Zentral-Java in Indonesien</item>
+        <item name="bild">true</item>
+        <item name="video">false</item>
+        <item name="audio">true</item>
+        <item name="wikipedia">Gendèr, auch Gender, sind auf Java und Bali in der Gamelan-Musik gespielte Instrumente. Es handelt sich um Metallophone mit dünnen gestimmten Klangplatten, die auf Schnüren über gleich gestimmten Resonanzröhren aufgehängt sind. Die Klangplatten bestehen meist aus Bronze, seltener aus Messing oder Eisen, die in einem Holzrahmen eingefassten Resonanzröhren aus Bambus oder Metall.
+Auf Java wird das gendèr barung mit 13 bis 15 Bronzeplatten vom gendèr panerusunterschieden, dessen Tonhöhe eine Oktave über dem gendèr barung liegt und das doppelt so schnell gespielt wird. Das gendèr panembung mit sechs oder sieben Klangplatten verfügt über den Tonumfang der unteren Platten des gendèr barung. Eine Gamelan-Komposition (gending), deren Eröffnungssequenz (buka) ein gendèrübernimmt, heißt gending gendèr
+<br/><a href="https://de.wikipedia.org/wiki/Gend%C3%A8r">Weiterlesen?</a><br/>
+Entnommen aus: https://de.wikipedia.org/wiki/Gend%C3%A8r – 20.6.2015“)
+
+</item>
+        <!--ende datensatz-->
+
+    </string-array>
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+
+    <!--rest-->
+    <string name="title">Musikus</string>
+    <string name="logoname">logo</string>
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+
+
+
+
+
+
+
+
 
 
     <string name="version">1</string>
@@ -18,7 +193,7 @@
         <item>Museumsdatas</item>
         <item>Fragen</item>
     </string-array>
-    <string-array name="create">
+    <string-array name="create"  formatted="false">
         <item>CREATE TABLE [Farben] (
 [ID] iNTEGER  UNIQUE NOT NULL,
 [Name] vaRCHAR(50)  UNIQUE NOT NULL,
@@ -64,5 +239,103 @@
 [title] varCHAR(50)  NOT NULL,
 [logoname] varCHAR(50)  NOT NULL
 );</item>
+
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(0,"vii c 471", "vii c 471","Schlagplattenspiel", "calung", "Bali in Indonesien",1,1,0, "Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+Die Instrumente des Ensembles sind:
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah
+Kesselgongspiele: Trompong, Reyong
+Gongs: Kempli, Kempur, Gong Gede
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel
+Cengceng: kleine gebuckelte Becken
+Rebab: Spießlaute
+Suling: Bambusflöte
+Weiterlesen? https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(1,"vii c 473", "vii c 473","Schlagplattenspiel", "penyacah", "Bali in Indonesien",1,1,0, "Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+Die Instrumente des Ensembles sind:
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah
+Kesselgongspiele: Trompong, Reyong
+Gongs: Kempli, Kempur, Gong Gede
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel
+Cengceng: kleine gebuckelte Becken
+Rebab: Spießlaute
+Suling: Bambusflöte
+Weiterlesen? https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(2,"vii c 474", "vii c 474","Schlagplattenspiel", "penyacah", "Bali in Indonesien",1,1,0, "Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+Die Instrumente des Ensembles sind:
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah
+Kesselgongspiele: Trompong, Reyong
+Gongs: Kempli, Kempur, Gong Gede
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel
+Cengceng: kleine gebuckelte Becken
+Rebab: Spießlaute
+Suling: Bambusflöte
+Weiterlesen? https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(3,"vii c 487a", "vii c 487a","Schlagplattenspiel", "kantilan", "Bali in Indonesien",1,1,0, "Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+Die Instrumente des Ensembles sind:
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah
+Kesselgongspiele: Trompong, Reyong
+Gongs: Kempli, Kempur, Gong Gede
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel
+Cengceng: kleine gebuckelte Becken
+Rebab: Spießlaute
+Suling: Bambusflöte
+Weiterlesen? https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(4,"vii c 501", "vii c 501","Konustrommel", "kendang", "Bali in Indonesien",1,1,0, "Gamelan Gong Kebyar ist einer der bedeutendsten zeitgenössischen Musikstile Balis. Er unterscheidet sich von anderen Gamelanstilen durch eine sehr hohe Virtuosität. Das Wort kebyar deutet vermutlich darauf hin, denn es bedeutet etwa ‚plötzlich aufflackern‘, ‚aufplatzen‘.
+Das Instrumentarium des Anfang des 20. Jahrhunderts entwickelten Gong Kebyar basiert im Wesentlichen auf dem großen höfischen Orchester Gong Gede. Einzelne Instrumente wurden durch andere mit größerer Beweglichkeit und größerem Tonraum ersetzt, damit ein virtuoseres Spiel möglich wird. Das Orchester spielt neue Kompositionen und alte in neuem Stil.
+Die Instrumente des Ensembles sind:
+Metallophone mit Holzrahmen: Gangsa Kantilan, Pemade, Ugal, Calung, Jegogan, Penyacah
+Kesselgongspiele: Trompong, Reyong
+Gongs: Kempli, Kempur, Gong Gede
+Kendang, eine mit den Händen geschlagene Doppelfelltrommel
+Cengceng: kleine gebuckelte Becken
+Rebab: Spießlaute
+Suling: Bambusflöte
+Weiterlesen? https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar
+Entnommen aus: https://de.wikipedia.org/wiki/Gamelan_Gong_Kebyar - 20.6.2015" )
+</item>
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(5,"vii c 150", "vii c 150","Schlagplattenspiel", " gender panerus (Gamelan)", " Zentral-Java in Indonesien",1,0,1,“ Gendèr, auch Gender, sind auf Java und Bali in der Gamelan-Musik gespielte Instrumente. Es handelt sich um Metallophone mit dünnen gestimmten Klangplatten, die auf Schnüren über gleich gestimmten Resonanzröhren aufgehängt sind. Die Klangplatten bestehen meist aus Bronze, seltener aus Messing oder Eisen, die in einem Holzrahmen eingefassten Resonanzröhren aus Bambus oder Metall.
+Auf Java wird das gendèr barung mit 13 bis 15 Bronzeplatten vom gendèr panerusunterschieden, dessen Tonhöhe eine Oktave über dem gendèr barung liegt und das doppelt so schnell gespielt wird. Das gendèr panembung mit sechs oder sieben Klangplatten verfügt über den Tonumfang der unteren Platten des gendèr barung. Eine Gamelan-Komposition (gending), deren Eröffnungssequenz (buka) ein gendèrübernimmt, heißt gending gendèr
+Weiterlesen? https://de.wikipedia.org/wiki/Gend%C3%A8r
+Entnommen aus: https://de.wikipedia.org/wiki/Gend%C3%A8r – 20.6.2015“)
+</item>
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(6,"vii c 153", "vii c 153","Schlagplattenspiel", " gender barung (Gamelan)", " Zentral-Java in Indonesien",1,0,1,“ Gendèr, auch Gender, sind auf Java und Bali in der Gamelan-Musik gespielte Instrumente. Es handelt sich um Metallophone mit dünnen gestimmten Klangplatten, die auf Schnüren über gleich gestimmten Resonanzröhren aufgehängt sind. Die Klangplatten bestehen meist aus Bronze, seltener aus Messing oder Eisen, die in einem Holzrahmen eingefassten Resonanzröhren aus Bambus oder Metall.
+Auf Java wird das gendèr barung mit 13 bis 15 Bronzeplatten vom gendèr panerusunterschieden, dessen Tonhöhe eine Oktave über dem gendèr barung liegt und das doppelt so schnell gespielt wird. Das gendèr panembung mit sechs oder sieben Klangplatten verfügt über den Tonumfang der unteren Platten des gendèr barung. Eine Gamelan-Komposition (gending), deren Eröffnungssequenz (buka) ein gendèrübernimmt, heißt gending gendèr
+Weiterlesen? https://de.wikipedia.org/wiki/Gend%C3%A8r
+Entnommen aus: https://de.wikipedia.org/wiki/Gend%C3%A8r – 20.6.2015“)
+</item>
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(7," I C 1479 e", " I C 1479 e","Gleitrassel", "angklung", " Java in Indonesien",1,0,1,“ Das Angklung in seiner heutigen Form besteht als Melodieinstrument aus zwei bis vier seitlich beweglichen Klangkörpern ausBambus, die in einem hölzernen Gestell aufgehängt sind. Am unteren Ende werden die Klangkörper in Langlöchern eines Bambusrohrs geführt.
+Weiterlesen? https://de.wikipedia.org/wiki/Angklung
+Entnommen aus: https://de.wikipedia.org/wiki/Angklung - 20.6.2015“)
+</item>
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(8,"vii c 171", "vii c 171","selbstständiger Gong", "ketuk  (Gamelan)“, " Zentral-Java in Indonesien",1,0,1,“ The kempyang and ketuk are two instruments in the gamelan, generally played by the same player, and sometimes played by the same player as the kenong. They are important beat-keepers in the colotomic structure of the gamelan. Depending on the structure, they play different, repeating patterns every gongan. Not all structures use the kempyang, but the kempyang is never played without the ketuk.
+They are shaped like bonang, but are generally placed in their own frame (rancak). The kempyang is pitched higher (about one octave, although it depends if they are in thepelog or slendro set. Both have a central boss like the bonang, but the kempyang has a rounder top (like the higher bonangs), while the ketuk has a flat top (like the lower bonangs).
+Weiterlesen? https://en.wikipedia.org/wiki/Kempyang_and_ketuk
+Entnommen aus: https://en.wikipedia.org/wiki/Kempyang_and_ketuk - 20.6.2015“)
+</item>
+<item>insert into "Museumdatas" ("ID", "name","signatur", "sachbegriff","titel", "geoBezug", "bild", "video", "audio", "wikipedia") values(9,"vii e 22", "vii e 22","Zylindertrommel", "surdo“, "Brasilien",1,0,1,“ Die brasilianische Surdo ist eine zylindrische Trommel und gehört zu den größten und wichtigsten Instrumenten der Bateria de Samba. Sie liefert die rhythmische Basis des Stücks und ist dadurch maßgeblich für die Kontrolle der Spielgeschwindigkeit verantwortlich.
+Weiterlesen? https://de.wikipedia.org/wiki/Surdo
+Entnommen aus: https://de.wikipedia.org/wiki/Surdo - 20.6.2015“)
+</item>
+<item>insert into “rest“ (“ID“, “name“, “title”, “logoname”) values(0, “musikus”, “musikus”, “logo”)</item>
+<item>insert into “Farben”(“ID”, “name”, “color”) values (0, “bgcolor”, “#fff”)</item>
+<item>insert into “Farben”(“ID”, “name”, “color”) values (1, “txtcolor”, “#000”)</item>
+<item>insert into “Farben”(“ID”, “name”, “color”) values (2, “txt2color”, “#fff”)</item>
+<item>insert into “Farben”(“ID”, “name”, “color”) values (3, “fgcolor”, “#934ebf”)</item>
+<item> insert into “Farben”(“ID”, “name”, “color”) values (4, “fg2color”, “#bebcba”)</item>
+
+
+
     </string-array>
 </resources>

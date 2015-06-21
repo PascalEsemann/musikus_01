@@ -15,17 +15,20 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private MainActivity mact;
 
     public DatabaseHelper(Context context) {
-        super(context, context.getResources().getString(R.string.dbname),null, Integer.parseInt(context.getResources().getString(R.string.version)));
-        this.context = context;
+        super(context,
+                context.getResources().getString(R.string.dbname),
+                null,
+                Integer.parseInt(context.getResources().getString(R.string.version)));
+        this.context=context;
     }
 
 
-    public Data[] onSelect() {
-        //Arraylänge bestimmen
+   /* public Data[] onSelect() {
+       /* //Arraylänge bestimmen
         int zaehler = 0;
         for (String sqltable : context.getResources().getStringArray(R.array.select)) {
             try {
-                Cursor result = mact.getConnection().rawQuery("SELECT * FROM " + sqltable, null);
+                Cursor result = mact.getConnection(mact.getDatabase()).rawQuery("SELECT * FROM " + sqltable, null);
                 zaehler += result.getCount();
             }
             catch(Exception ex){}
@@ -33,28 +36,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         Data[] data = new Data[zaehler];
 
         int count = 0;
-        for (String sqltable : context.getResources().getStringArray(R.array.select)) {
-            try {
-                Cursor result = mact.getConnection().rawQuery("SELECT * FROM " + sqltable, null);
 
-                while (result.moveToNext()) {
-                    data[count].setName(result.getString(1));
-                    String[] value = new String[result.getColumnCount() - 2];
-                    for (int i = 2; i < result.getColumnCount(); i++) {
-                        value[i - 2] = result.getString(i);
-                    }
-                    data[count].setValues(value);
-                    data[count].setType(sqltable);
-                    count++;
-                }
-            }
-            catch (Exception ex) {
-            }
 
         }
 
         return data;
-    }
+    } */
 
     @Override
     public void onCreate(SQLiteDatabase db){

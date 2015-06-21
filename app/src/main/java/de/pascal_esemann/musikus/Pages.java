@@ -11,6 +11,14 @@ public class Pages {
         setTitle((String) pdata.getValues()[0]);
         setText((String) pdata.getValues()[1]);
     }
+    public Pages(String pTitle, String pText) {
+        setTitle((String) pTitle);
+        setText((String) pText);
+    }
+
+    public  Pages(){
+
+    }
 
     //get/set
 
@@ -18,7 +26,7 @@ public class Pages {
         return title;
     }
 
-    private void setTitle(String ptitle) {
+    public void setTitle(String ptitle) {
         title = ptitle;
     }
 
@@ -26,7 +34,7 @@ public class Pages {
         return text;
     }
 
-    private void setText(String ptext) {
+    public void setText(String ptext) {
         text = ptext;
     }
 

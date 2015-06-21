@@ -23,7 +23,8 @@ public class Datafactory {
 
 
     //Methods
-    public Datafactory(){
+    public Datafactory(MainActivity pmact){
+        mact = pmact;
         getDBData();
     }
 
@@ -82,7 +83,60 @@ public class Datafactory {
     }
 
     private void getDBData(){
-        Data[] data = mact.getDatabase().onSelect();
+
+        //Farben
+
+        Farben[] farben = new Farben[5];
+
+        farben[0] = new Farben("bgcolor",mact.getResources().getString(R.string.bgcolor));
+        farben[1] = new Farben("txtcolor",mact.getResources().getString(R.string.txtcolor));
+        farben[2] = new Farben("txt2color",mact.getResources().getString(R.string.txt2color));
+        farben[3] = new Farben("fgcolor",mact.getResources().getString(R.string.fgcolor));
+        farben[4] = new Farben("fg2color",mact.getResources().getString(R.string.fg2color));
+
+        setFarben(farben);
+
+
+        //Pages
+
+        //Zählen
+        int count = 0;
+        int a = 0;
+        for(String p : mact.getResources().getStringArray(R.array.pages)) {
+
+            if (a % 2 == 0) {
+                count += 1;
+            }
+            a += 1;
+        }
+        //Daten holen
+        Pages[] page = new Pages[count];
+        int c=0;
+        int d=0;
+        for(String p : mact.getResources().getStringArray(R.array.pages)){
+            if(c % 2 == 0){
+                page[d] = new Pages("a","b");
+                page[d].setTitle(p);
+                c += 1;
+            }
+            else if(c%2 != 0){
+                page[d].setText(p);
+                c+=1;
+                d+=1;
+            }
+        }
+        setPages(page);
+
+        //rest
+        setTitle(mact.getResources().getString(R.string.title));
+        setLogoname(mact.getResources().getString(R.string.logoname));
+
+
+
+
+
+
+        /*Data[] data = new DatabaseHelper(mact).onSelect();
 
         //Zählen für Array-länge
         int count_farben = 0;
@@ -137,7 +191,7 @@ public class Datafactory {
                 setTitle(d.getValues()[0]);
                 setLogoname(d.getValues()[1]);
             }
-        }
+        }*/
     }
 
 
