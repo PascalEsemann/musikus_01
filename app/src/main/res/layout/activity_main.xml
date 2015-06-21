@@ -31,13 +31,6 @@
             android:textColor="#ffffffff"
             android:textSize="10pt" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView"
-            android:src="@drawable/logo"
-            android:background="#ffffffff" />
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -47,10 +40,29 @@
             android:background="#ffffffff">
 
             <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#ffffffff">
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linview">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/logo"
+                    android:background="#ffffffff" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ausstellungsstücke"
+                    android:id="@+id/button" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spiel"
+                    android:id="@+id/button2" />
 
             </LinearLayout>
         </ScrollView>

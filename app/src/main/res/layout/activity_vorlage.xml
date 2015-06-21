@@ -31,13 +31,6 @@
             android:textColor="#ffffffff"
             android:textSize="10pt" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/imgh"
-            android:src="@drawable/logo"
-            android:background="#ffffffff" />
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -53,6 +46,12 @@
                 android:background="#ffffffff"
                 android:id="@+id/inhaltlayout">
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgh"
+                    android:src="@drawable/logo"
+                    android:background="#ffffffff" />
             </LinearLayout>
         </ScrollView>
 

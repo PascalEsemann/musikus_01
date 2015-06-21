@@ -13,6 +13,17 @@ public class Fragen {
     private Boolean audio;
 
     //Methodes
+    public Fragen(){
+        question = "";
+        caw="";
+        incaw1="";
+        incaw2="";
+        incaw3="";
+        bild=false;
+        video=false;
+        audio=false;
+    }
+
     public Fragen (Data pdata)
     {
         setQuestion((String) pdata.getValues()[0]);
@@ -36,7 +47,7 @@ public class Fragen {
         return question;
     }
 
-    private void setQuestion(String pquestion) {
+    public void setQuestion(String pquestion) {
         question = pquestion;
     }
 
@@ -44,7 +55,7 @@ public class Fragen {
         return caw;
     }
 
-    private void setCaw(String pcaw) {
+    public void setCaw(String pcaw) {
         caw = pcaw;
     }
 
@@ -52,7 +63,7 @@ public class Fragen {
         return incaw1;
     }
 
-    private void setIncaw1(String pincaw1) {
+    public void setIncaw1(String pincaw1) {
         incaw1 = pincaw1;
     }
 
@@ -60,7 +71,7 @@ public class Fragen {
         return incaw2;
     }
 
-    private void setIncaw2(String pincaw2) {
+    public void setIncaw2(String pincaw2) {
         incaw2 = pincaw2;
     }
 
@@ -68,19 +79,19 @@ public class Fragen {
         return incaw3;
     }
 
-    private void setIncaw3(String pincaw3) {
+    public void setIncaw3(String pincaw3) {
         incaw3 = pincaw3;
     }
 
     public Boolean getBild () { return bild;}
 
-    private void setBild (Boolean pbild) { bild = pbild; }
+    public void setBild (Boolean pbild) { bild = pbild; }
 
     public Boolean getVideo () { return video;}
 
-    private void setVideo (Boolean pvideo) { video = pvideo; }
+    public void setVideo (Boolean pvideo) { video = pvideo; }
 
     public Boolean getAudio () { return audio;}
 
-    private void setAudio (Boolean paudio) { audio = paudio; }
+    public void setAudio (Boolean paudio) { audio = paudio; }
 }

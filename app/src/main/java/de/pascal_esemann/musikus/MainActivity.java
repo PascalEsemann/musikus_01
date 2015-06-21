@@ -8,7 +8,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -100,6 +102,18 @@ public class MainActivity extends Activity {
                 img.setImageResource(R.drawable.logo);
             }
             catch(Exception ex){}
+
+            //Buttons
+            ViewGroup lview = (ViewGroup) findViewById(R.id.linview);
+
+            //weitere Buttons einfügen
+            for(Pages p : datastore.getPages()){
+                Button btn = new Button(this);
+                btn.setText(p.getTitle());
+                btn.setWidth(LinearLayout.LayoutParams.FILL_PARENT);
+                btn.setHeight(LinearLayout.LayoutParams.WRAP_CONTENT);
+                lview.addView(btn);
+            }
 
 
 

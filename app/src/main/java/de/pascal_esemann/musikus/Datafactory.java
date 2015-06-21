@@ -194,6 +194,74 @@ public class Datafactory {
         setMuseumsdata(mdatas);
 
 
+        //fragen
+        //Zählen
+        int fcount = 0;
+        int fa = 0;
+        for(String p : mact.getResources().getStringArray(R.array.fragen)) {
+
+            if (fa % 7 == 0) {
+                fcount += 1;
+            }
+            fa += 1;
+        }
+
+        //Daten holen
+        Fragen[] fdatas = new Fragen[fcount];
+        int fc=0;
+        int fd=0;
+
+        for(String p : mact.getResources().getStringArray(R.array.fragen)){
+            if(fc == 0){
+                fdatas[fd] = new Fragen();
+                fdatas[fd].setQuestion(p);
+                fc += 1;
+            }
+            else if(fc == 1){
+                fdatas[fd].setCaw(p);
+                fc +=1;
+            }
+            else if(fc == 2){
+                fdatas[fd].setIncaw1(p);
+                fc += 1;
+            }
+            else if(fc == 3){
+                fdatas[fd].setIncaw2(p);
+                fc += 1;
+            }
+            else if(fc == 4){
+                fdatas[fd].setIncaw3(p);
+                fc += 1;
+
+            }
+            else if(fc == 5){
+                if(new Boolean(p) == false) {
+                    fdatas[fd].setBild(false);
+                }
+                else if(new Boolean(p) == true){
+                    fdatas[fd].setBild(true);
+                }
+                fc += 1;
+            }
+            else if(fc == 6){
+                if(new Boolean(p) == false) {
+                    fdatas[fd].setVideo(false);
+                }
+                else if(new Boolean(p) == true){fdatas[fd].setVideo(true);}
+                fc += 1;
+            }
+            else if(fc == 7){
+                if(new Boolean(p) == false) {
+                    fdatas[fd].setAudio(false);
+                }
+                else if(new Boolean(p) == true){fdatas[fd].setAudio(true);}
+                fc = 0;
+                fd+=1;
+            }
+        }
+        setFragen(fdatas);
+
+
         //rest
         setTitle(mact.getResources().getString(R.string.title));
         setLogoname(mact.getResources().getString(R.string.logoname));

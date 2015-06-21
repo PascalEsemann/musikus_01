@@ -30,7 +30,7 @@
             <item name="text">Bereichskarte Dahlem: 8€, ermäßigt 4€<br/>Online: 7€, ermäßigt 3,50€<br/>Jahreskarte: 25€</item>
 
 
-            <item name="title">“Kontakt (Information/Beratung/Buchung)”</item>
+            <item name="title">Kontakt</item>
             <item name="text">Tel.: 030/266424242  (Mo - Fr 9 - 16 Uhr)<br/>Fax: 030 / 266422290<br/>service@smb.museum</item>
 
    </string-array>
@@ -229,16 +229,50 @@ Entnommen aus: https://en.wikipedia.org/wiki/Kempyang_and_ketuk – 20.6.2015
     <string-array name="fragen">
 
         <!--datensatz-->
-        <item name="question"></item>
-        <item name="caw"></item>
-        <item name="incaw1"></item>
-        <item name="incaw2"></item>
-        <item name="incaw3"></item>
-        <item name="bild"></item>
-        <item name="video"></item>
-        <item name="audio"></item>
+        <item name="question">Was ist das?</item>
+        <item name="caw">Konustrommel</item>
+        <item name="incaw1">Kesseltrommel</item>
+        <item name="incaw2">Batá-Trommel</item>
+        <item name="incaw3">Djembé</item>
+        <item name="bild">true</item>
+        <item name="video">false</item>
+        <item name="audio">false</item>
 
         <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="question">Zu welchem Rasseltyp gehört folgendes Instrument? </item>
+        <item name="caw">Gleitrassel</item>
+        <item name="incaw1">Rahmenrassel</item>
+        <item name="incaw2">Gefäßrassel</item>
+        <item name="incaw3">Reihenrassel</item>
+        <item name="bild">true</item>
+        <item name="video">false</item>
+        <item name="audio">false</item>
+
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="question">Aus welcher Region stammt dieses Instrument?</item>
+        <item name="caw">Zentral-Java</item>
+        <item name="incaw1">Ost-Java</item>
+        <item name="incaw2">West-Java</item>
+        <item name="incaw3">Nusa Tenggara</item>
+        <item name="bild">true</item>
+        <item name="video">false</item>
+        <item name="audio">false</item>
+
+        <!--ende datensatz-->
+        <!--datensatz-->
+        <item name="question">Aus wlchem Land stammt diese Trommel?</item>
+        <item name="caw">Brasilien</item>
+        <item name="incaw1">Argentinien</item>
+        <item name="incaw2">USA</item>
+        <item name="incaw3">Bolivien</item>
+        <item name="bild">true</item>
+        <item name="video">false</item>
+        <item name="audio">false</item>
+
+        <!--ende datensatz-->
+
 
 
     </string-array>
